@@ -1,0 +1,10 @@
+[30-Jun-2016 13:17:07 America/Denver] PHP Fatal error:  Class 'users' not found in /home/thehave8/public_html/reddactgame/includes/class/base.php on line 3
+[30-Jun-2016 13:17:13 America/Denver] PHP Fatal error:  Class 'CMAC' not found in /home/thehave8/public_html/reddactgame/includes/class/users.php on line 3
+[30-Jun-2016 13:17:16 America/Denver] PHP Fatal error:  Cannot use [] for reading in /home/thehave8/public_html/reddactgame/includes/class/sGenerator.php on line 83
+[30-Jun-2016 13:17:18 America/Denver] PHP Fatal error:  Cannot use [] for reading in /home/thehave8/public_html/reddactgame/includes/class/sGenerator.php on line 83
+[30-Jun-2016 13:17:19 America/Denver] PHP Fatal error:  Class 'upgrades' not found in /home/thehave8/public_html/reddactgame/includes/class/finance.php on line 3
+[30-Jun-2016 13:17:21 America/Denver] PHP Fatal error:  Class 'finance' not found in /home/thehave8/public_html/reddactgame/includes/class/CMAC.php on line 3
+[30-Jun-2016 13:17:22 America/Denver] PHP Fatal error:  Class 'finance' not found in /home/thehave8/public_html/reddactgame/includes/class/CMA.php on line 3
+[30-Jun-2016 13:20:00 America/Denver] PHP Fatal error:  Class 'finance' not found in /home/thehave8/public_html/reddactgame/includes/class/CMA.php on line 3
+[30-Jun-2016 13:20:06 America/Denver] PHP Fatal error:  Class 'upgrades' not found in /home/thehave8/public_html/reddactgame/includes/class/finance.php on line 3
+[30-Jun-2016 13:20:09 America/Denver] PHP Fatal error:  Class 'CMAC' not found in /home/thehave8/public_html/reddactgame/includes/class/users.php on line 3

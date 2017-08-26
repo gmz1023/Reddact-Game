@@ -1,0 +1,23 @@
+/* CSS Document */
+.login {
+	border: 1px solid #f1f1f1;
+	padding: 33px;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	transform: translate(20%,0);
+	width: 20%;
+	background-color: #fff;
+	input {
+		margin: {top: 1vw; } 
+		padding: 5px;
+		text-align: center;
+		width: 100%;
+		display: block;
+
+	}
+	h3 {
+		font-size: 1vw;
+		text-align: center;	
+	}
+}

@@ -1,0 +1,91 @@
+10
+
+dir
+0
+svn://www.reddactgame.com:3690/home/thehave8/public_html/reddactgame/repo/includes/class
+svn://www.reddactgame.com:3690/home/thehave8/public_html/reddactgame/repo
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+8be18773-3f6e-42c8-9847-afbbe3c5723b
+
+base.php
+file
+
+
+
+add
+
+upgrades.php
+file
+
+
+
+add
+
+battle.php
+file
+
+
+
+add
+
+users.php
+file
+
+
+
+add
+
+feats.php
+file
+
+
+
+add
+
+CMAC.php
+file
+
+
+
+add
+
+finance.php
+file
+
+
+
+add
+
+error_log
+file
+
+
+
+add
+
+populationGrowth.php
+file
+
+
+
+add
+

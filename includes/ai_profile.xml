@@ -1,0 +1,24 @@
+<xml>
+<ai>
+	<name>Tier Corporation</name>
+	<uid>30</uid>
+	<type>generic</type>
+	<agro>0</agro>
+	<spread>0</spread> 
+	<battle>
+		<canBeAttacked>false</canBeAttacked>
+	</battle>
+	<missions>
+		<mid>0</mid>
+	</missions>
+	<inventory>
+	<item id='36' type='resource' hasAtStart='true' />
+	<item id='-99' type='resource' hasAtStart='false' />
+	</inventory>
+	<messages>
+		<message type='resourceMis'>
+		We are current in need of RESOURCE_NAME. please send RESOURCE_NAME to our shop located at X0Y0
+		</message>
+	</messages>
+</ai>
+</xml>

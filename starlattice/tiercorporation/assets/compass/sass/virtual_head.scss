@@ -1,0 +1,50 @@
+#header {
+	font-family: "acumin-pro-extra-condensed",sans-serif;
+	position:relative;
+	background-color: #f1f1f1;
+	border: { bottom: 1px solid #191424;}
+	width: 100%;
+	height: 10%;
+	.menu_bar {
+		width: 70%;
+		float: right;
+		height: 100%;
+		background-color: $darkbase;
+		.menu { 
+			float: left;
+			height: 50%;
+			width: 50%;
+			color: #fff;
+			.button {
+				box-sizing:border-box;
+				display: inline-block;
+				text-align: center;
+				padding: { top: 1%; } 
+				position: relative;
+				float: left;
+				background-color: #f1f1f1;
+				&:nth-child(odd) { border: { left: 1px solid black; } }
+				&:nth-child(even) { border: { left: 1px solid black; } }
+				&:hover { background-color: $linkcolor; a {color: #fff; }  }
+				height: 100%;
+				a{
+					display: inline-block;
+					font-size: 1vw;
+					padding: 0.5em;
+					text-decoration: none;
+					color: #000;
+				}
+				}
+		&.gold { background-color: $subcolor; width: 100% !important; }
+		&.dist { .button { float: right; } } 
+		}
+	}
+	.logo {
+		img { width: 85%; box-sizing:border-box; padding: 0; margin: 0; } 
+		text-align:center;
+		width: 30%;
+		float: left;
+		background-color: #f1f1f1;
+	}
+	
+}

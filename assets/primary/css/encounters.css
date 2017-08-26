@@ -1,0 +1,46 @@
+.hidden {
+  display: none; }
+
+#forcedEncounter {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+  #forcedEncounter.hidden {
+    display: none; }
+  #forcedEncounter .forcedEncounter-Holder {
+    background-color: #323232 !important;
+    padding: 1%;
+    margin: 0 auto;
+    z-index: 1000;
+    position: absolute;
+    transform: translate(50%, 70%);
+    width: 50%;
+    height: 20%;
+    opacity: 1 !important; }
+    #forcedEncounter .forcedEncounter-Holder .forced-encounter {
+      background-color: #fff; }
+      #forcedEncounter .forcedEncounter-Holder .forced-encounter.title {
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+        height: 15%;
+        font-weight: bold; }
+      #forcedEncounter .forcedEncounter-Holder .forced-encounter.body {
+        width: 100%;
+        border: 1px solid black;
+        height: 70%; }
+        #forcedEncounter .forcedEncounter-Holder .forced-encounter.body p {
+          margin: 1%; }
+      #forcedEncounter .forcedEncounter-Holder .forced-encounter.action.actionButton {
+        display: inline-block;
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        height: 15%;
+        box-sizing: border-box; }
+
+/*# sourceMappingURL=encounters.css.map */

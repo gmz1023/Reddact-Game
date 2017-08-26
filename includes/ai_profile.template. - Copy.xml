@@ -1,0 +1,23 @@
+<xml>
+<!-- 
+This is the generic template for AI profiles; it is used to set up the AI in the game so they can function like a normal user.
+!-->
+<ai>
+	<name>Template</name>
+	<uid>30</uid>
+	<type>generic</type> <!-- mission|| market || enemy || alien || generic !--> 
+	<agro>0</agro> <!-- non-agressive == 0 || hyper-agressive == 10 !-->
+	<spread>0</spread> <!-- one-planet civ == 0 || conquer map == 10 !--> 
+	<resources>
+	<!-- List off the resources the ai wants; humans generally want water, oxygen and fuel !-->
+		<id>1</id>
+		<id>2</id>
+		<id>3</id>
+	</resources>
+	<missions>
+	<!-- This section is still a WIP, but will determine the missions that are associated with each AI !-->
+		<mid>0</mid>
+	</missions>
+	
+</ai>
+</xml>

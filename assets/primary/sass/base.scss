@@ -1,0 +1,252 @@
+@import "animations.scss";
+@import "normalize.css";
+@import "forum.scss";
+@import "front-page.scss";
+@import "map.scss";
+@import "sinform.scss";
+@import "navbox.scss";
+@import "contextMenu.scss";
+@import "signup.scss";
+@import "unimenu.scss";
+@import "encounters.scss";
+@import "homeworld.scss";
+html, body, #interface {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+	background-color: black;
+}
+
+#interface {
+  display: flex;
+  flex-wrap: wrap;
+  background: black;
+	height: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+#message { color: #fff !important;}
+table {
+	border-collapse: collapse;
+}
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+.hide {
+	display: none;
+}
+#loader {
+	margin: 0 auto;
+	width: 45%;
+}
+#progressbar {
+	width: 100%;
+	float: left;
+}
+.ui-progressbar {
+	display: block !important;
+	text-align: center !important;
+}
+.ui-progressbar-value {
+	display: inline-block;
+	float: left!important;
+}
+/* New Style */
+
+/* New Standard Register */
+.cta-content {
+  float: right;
+}
+
+.cta-register {
+  width: 500px;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  text-align: center;
+  float: right;
+  h1 {
+    background-color: #020B21;
+    color: #fff;
+  }
+  label {
+    text-align: right;
+    display: inline-block;
+    width: 33%;
+  }
+  input {
+    width: 66%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+}
+
+.rif-submit {
+  text-transform: uppercase;
+  float: right;
+}
+
+/* New Standard Home Page */
+
+/* New Standard "Visit System" */
+
+.nTaksCase {
+  width: 100%;
+  border: 1px inset black;
+  padding: 5%;
+}
+
+.nTaks {
+  width: 20%;
+  box-sizing: padding-box;
+}
+
+/* New Standar Map Stuff */
+
+.stronghold {
+  -webkit-animation: stronghold 20s linear infinite;
+  animation: stronghold 20s linear infinite;
+}
+
+.mission {
+  width: 48% !important;
+  box-sizing: border-box;
+  background-color: #333;
+}
+
+.accept {
+  background-color: #008A18;
+}
+
+.ignore {
+  background-color: #670103;
+}
+
+.mission-actions {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.transmission {
+  width: 100%;
+  display: inline-block;
+  background-color: #000;
+  float: left;
+}
+
+.mission-header {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+}
+
+.mission-text {
+  background-color: #fff;
+  width: 100%;
+  padding: 3%;
+	box-sizing: border-box;
+}
+
+
+/***************************************************************
+	
+	Home World Stuff 
+	
+*************************************************************/
+#hw {
+  background-color: #f1f1f1;
+  width: 100%;
+  float: right;
+  div {
+    float: right;
+  }
+  table.resource {
+    text-align: center;
+    float: left;
+    width: 20%;
+    border: 1px solid #333;
+  }
+}
+
+table.resource {
+  tr {
+    &:nth-child(odd) {
+      background-color: #969595;
+    }
+    td {
+      text-transform: capitalize;
+    }
+  }
+  th {
+    background-color: #030202;
+    color: #f1f1f1;
+  }
+}
+
+#warehouseItems {
+  border: 1px inset black;
+  width: 80%;
+  box-sizing: border-box;
+  div {
+    float: left;
+  }
+}
+
+.whIone {
+  text-align: center;
+  width: 16.6%;
+  height: 16.6%;
+  display: inline-block;
+  padding: 1%;
+  border: 1px solid #313131;
+  outline: 1px groove #f1f1f1;
+  img {
+    vertical-align: text-bottom;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  span {
+    display: block;
+  }
+}
+
+.hwwelcome {
+  display: block;
+  width: 100%;
+  float: right;
+  background-color: #f1f1f1;
+  h1 {
+    outline: 1px groove #0E4319;
+    border: 1px ridge #000000;
+    text-align: center;
+  }
+}
+
+.hwrow {
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.hwUserStat {
+  width: 20%;
+  float: left !important;
+  height: 100%;
+  margin-top: 1%;
+  padding: 1%;
+}
+
+.hw-updates {
+  border-top: 1px solid black;
+  float: left;
+  width: 79%;
+  margin-left: 1%;
+  margin-top: 1%;
+}

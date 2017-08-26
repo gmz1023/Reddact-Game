@@ -1,0 +1,85 @@
+<xml>
+<mission>
+	<id>0</id>
+	<type>text</type>
+	<deny>Ignore</deny>
+	<accept>salvage</accept>
+	<text>You stumble upon a ship; scanners show there are zero life forms aboard and the engines have long since run dry.</text>
+	<xp>90</xp>
+	<money>9000</money>
+	<reward type='item'>9</reward>
+</mission>
+<mission>
+	<id>1</id>
+	<levels>1</levels>
+	<type>text</type>
+	<deny>Ignore</deny>
+	<accept>explore</accept>
+	<text>You intercept an incoming beacon</text>
+	<xp>129</xp>
+	<money>9000</money>
+	<reward type='item'>9</reward>
+</mission>
+<mission>
+	<id>2</id>
+	<levels>1</levels>
+	<type>text</type>
+	<text>You discover an abandon TIER vessel floating aloft in space; it's hull is covered in pot marks of unknown orgin. The engines are still humming along despite the damage.</text>
+	<accept>salvage</accept>
+	<deny>Destroy The Vessel</deny>
+	<xp>100</xp>
+	<money>9000</money>
+	<reward type='ship'>9</reward>
+</mission>
+<mission>
+	<id>3</id>
+	<levels>2</levels>
+	<text>
+	A sudden flash of radiation in the distance causes your sensors to go haywire; being that there are no stars or other stellar phenomena near by your cheif science officer advises you to inspect it.
+	</text>
+	<type>text</type>
+	<deny>Ignore</deny>
+	<denyText>
+		The radiation slowly dissipates, leaving you with a distict sense of dread.
+	</denyText>
+	<accept>investigate</accept>
+	<acceptText>
+		As you investigate the flash you are filled with the sensation of existential dread; as though your purpose in life is nothing more than a brief flash in the cosmic frying pan. Your science crew does, however, manage to capture a single 'specimen' from the incident.
+	</acceptText>
+	<xp>90</xp>
+	<money>9000</money>
+	<reward type='item'>10</reward>
+</mission>
+<mission>
+	<id>4</id>
+	<levels>1</levels>
+	<type>text</type>
+	<deny>destroy vessel</deny>
+	<accept>salvage</accept>
+	<text>You stumble upon an abandon FACTION_NAME SHIP_TYPE; it is SHIP_DAMAGE_LEVEL</text>
+	<xp>120</xp>
+	<money>9000</money>
+	<reward type='item'>9</reward>
+</mission>
+<mission>
+	<id>5</id>
+	<levels>1</levels>
+	<type>text</type>
+	<deny>Ignore and continue Home</deny>
+	<accept>Investigate the signal</accept>
+	<text>You stumble upon an disheveled space station orbiting a strange blue pulsating star. It's broadcasting a weak radio transmission about mundane happenings onboard the ship</text>
+	<xp>900</xp>
+	<money>10000</money>
+	<reward type='item'>9</reward>
+	
+	</mission>
+<words>
+<faction>Tier Corp</faction>
+<faction>H.E.P</faction>
+<faction>Civilian Ship</faction>
+<shipdamage>beat up but still usable</shipdamage>
+<shipdamage>all but destroyed</shipdamage>
+<shiptype>cargo vessel</shiptype>
+<shiptype>warship</shiptype>
+</words>
+</xml>

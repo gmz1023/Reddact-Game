@@ -1,0 +1,869 @@
+[05-Aug-2017 03:10:03 America/New_York] PHP Notice:  Use of undefined constant TECHLEV - assumed 'TECHLEV' in /home/gmz1023/public_html/reddact/includes/constants.php on line 44
+[05-Aug-2017 03:10:03 America/New_York] PHP Warning:  A non-numeric value encountered in /home/gmz1023/public_html/reddact/includes/constants.php on line 44
+[05-Aug-2017 03:10:03 America/New_York] PHP Notice:  Use of undefined constant TECHLEV - assumed 'TECHLEV' in /home/gmz1023/public_html/reddact/includes/constants.php on line 45
+[05-Aug-2017 03:10:03 America/New_York] PHP Warning:  A non-numeric value encountered in /home/gmz1023/public_html/reddact/includes/constants.php on line 45
+[05-Aug-2017 03:10:05 America/New_York] PHP Notice:  Use of undefined constant TECHLEV - assumed 'TECHLEV' in /home/gmz1023/public_html/reddact/includes/constants.php on line 44
+[05-Aug-2017 03:10:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/gmz1023/public_html/reddact/includes/constants.php on line 44
+[05-Aug-2017 03:10:05 America/New_York] PHP Notice:  Use of undefined constant TECHLEV - assumed 'TECHLEV' in /home/gmz1023/public_html/reddact/includes/constants.php on line 45
+[05-Aug-2017 03:10:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/gmz1023/public_html/reddact/includes/constants.php on line 45
+[05-Aug-2017 03:10:28 America/New_York] PHP Notice:  Use of undefined constant TECHLEV - assumed 'TECHLEV' in /home/gmz1023/public_html/reddact/includes/constants.php on line 44
+[05-Aug-2017 03:10:28 America/New_York] PHP Warning:  A non-numeric value encountered in /home/gmz1023/public_html/reddact/includes/constants.php on line 44
+[05-Aug-2017 03:10:28 America/New_York] PHP Notice:  Use of undefined constant TECHLEV - assumed 'TECHLEV' in /home/gmz1023/public_html/reddact/includes/constants.php on line 45
+[05-Aug-2017 03:10:28 America/New_York] PHP Warning:  A non-numeric value encountered in /home/gmz1023/public_html/reddact/includes/constants.php on line 45
+[05-Aug-2017 03:10:29 America/New_York] PHP Notice:  Use of undefined constant TECHLEV - assumed 'TECHLEV' in /home/gmz1023/public_html/reddact/includes/constants.php on line 44
+[05-Aug-2017 03:10:29 America/New_York] PHP Warning:  A non-numeric value encountered in /home/gmz1023/public_html/reddact/includes/constants.php on line 44
+[05-Aug-2017 03:10:29 America/New_York] PHP Notice:  Use of undefined constant TECHLEV - assumed 'TECHLEV' in /home/gmz1023/public_html/reddact/includes/constants.php on line 45
+[05-Aug-2017 03:10:29 America/New_York] PHP Warning:  A non-numeric value encountered in /home/gmz1023/public_html/reddact/includes/constants.php on line 45
+[05-Aug-2017 03:10:33 America/New_York] PHP Notice:  Undefined variable: base in /home/gmz1023/public_html/reddact/includes/constants.php on line 39
+[05-Aug-2017 03:10:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function getSpecificUpgrade() on null in /home/gmz1023/public_html/reddact/includes/constants.php:39
+Stack trace:
+#0 /home/gmz1023/public_html/reddact/includes/db.php(2): include()
+#1 /home/gmz1023/public_html/reddact/bootstra.php(6): require_once('/home/gmz1023/p...')
+#2 /home/gmz1023/public_html/reddact/index.php(3): include('/home/gmz1023/p...')
+#3 {main}
+  thrown in /home/gmz1023/public_html/reddact/includes/constants.php on line 39
+[05-Aug-2017 03:11:08 America/New_York] PHP Notice:  Undefined variable: base in /home/gmz1023/public_html/reddact/includes/constants.php on line 39
+[05-Aug-2017 03:11:08 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function getSpecificUpgrade() on null in /home/gmz1023/public_html/reddact/includes/constants.php:39
+Stack trace:
+#0 /home/gmz1023/public_html/reddact/includes/db.php(2): include()
+#1 /home/gmz1023/public_html/reddact/bootstra.php(6): require_once('/home/gmz1023/p...')
+#2 /home/gmz1023/public_html/reddact/index.php(3): include('/home/gmz1023/p...')
+#3 {main}
+  thrown in /home/gmz1023/public_html/reddact/includes/constants.php on line 39
+[05-Aug-2017 03:21:04 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'reddact.privateMessages' doesn't exist in /home/gmz1023/public_html/reddact/includes/class/messaging.php:7
+Stack trace:
+#0 /home/gmz1023/public_html/reddact/includes/class/messaging.php(7): PDO->prepare('SELECT  count(u...')
+#1 /home/gmz1023/public_html/reddact/includes/parts/header.new.php(62): messaging->unreadmessages()
+#2 /home/gmz1023/public_html/reddact/index.php(8): include('/home/gmz1023/p...')
+#3 {main}
+  thrown in /home/gmz1023/public_html/reddact/includes/class/messaging.php on line 7
+[06-Aug-2017 00:08:44 America/New_York] PHP Fatal error:  Uncaught Error: Class 'base' not found in /home/gmz1023/public_html/reddact2/bootstra.php:7
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/index.php(3): include()
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/bootstra.php on line 7
+[06-Aug-2017 00:09:03 America/New_York] PHP Fatal error:  Uncaught Error: Class 'base' not found in /home/gmz1023/public_html/reddact2/bootstra.php:7
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/index.php(3): include()
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/bootstra.php on line 7
+[06-Aug-2017 00:11:03 America/New_York] PHP Fatal error:  Uncaught Error: Class 'base' not found in /home/gmz1023/public_html/reddact2/bootstra.php:7
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/index.php(3): include()
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/bootstra.php on line 7
+[06-Aug-2017 00:11:14 America/New_York] PHP Fatal error:  Uncaught Error: Class 'base' not found in /home/gmz1023/public_html/reddact2/bootstra.php:7
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/index.php(3): include()
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/bootstra.php on line 7
+[06-Aug-2017 00:11:15 America/New_York] PHP Fatal error:  Uncaught Error: Class 'base' not found in /home/gmz1023/public_html/reddact2/bootstra.php:7
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/index.php(3): include()
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/bootstra.php on line 7
+[06-Aug-2017 00:11:16 America/New_York] PHP Fatal error:  Uncaught Error: Class 'base' not found in /home/gmz1023/public_html/reddact2/bootstra.php:7
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/index.php(3): include()
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/bootstra.php on line 7
+[06-Aug-2017 00:15:09 America/New_York] PHP Fatal error:  Uncaught Error: Class 'base' not found in /home/gmz1023/public_html/reddact2/bootstra.php:7
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/index.php(3): include()
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/bootstra.php on line 7
+[06-Aug-2017 00:15:10 America/New_York] PHP Fatal error:  Uncaught Error: Class 'base' not found in /home/gmz1023/public_html/reddact2/bootstra.php:7
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/index.php(3): include()
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/bootstra.php on line 7
+[06-Aug-2017 00:15:32 America/New_York] PHP Fatal error:  Uncaught Error: Class 'base' not found in /home/gmz1023/public_html/reddact2/bootstra.php:7
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/index.php(3): include()
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/bootstra.php on line 7
+[06-Aug-2017 00:17:08 America/New_York] PHP Parse error:  syntax error, unexpected '{' in /home/gmz1023/public_html/reddact2/includes/functions.php on line 9
+[06-Aug-2017 00:27:33 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 12
+[06-Aug-2017 00:27:34 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 12
+[06-Aug-2017 00:27:37 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 12
+[06-Aug-2017 00:27:38 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 12
+[06-Aug-2017 00:29:58 America/New_York] PHP Notice:  Undefined index: user in /home/gmz1023/public_html/reddact2/includes/parts/home/notes.php on line 3
+[06-Aug-2017 00:30:47 America/New_York] PHP Notice:  Undefined index: user in /home/gmz1023/public_html/reddact2/includes/parts/home/notes.php on line 3
+[06-Aug-2017 00:33:12 America/New_York] PHP Notice:  Undefined variable: html in /home/gmz1023/public_html/reddact2/includes/parts/home/signup.php on line 2
+[06-Aug-2017 00:33:36 America/New_York] PHP Notice:  Undefined variable: html in /home/gmz1023/public_html/reddact2/includes/parts/home/signup.php on line 2
+[06-Aug-2017 01:12:36 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method base::isRelay() in /home/gmz1023/public_html/reddact2/includes/class/map.php:128
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/map.php(3): map->displayMap(0, '-1', '0')
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/map.php on line 128
+[06-Aug-2017 01:12:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method base::isRelay() in /home/gmz1023/public_html/reddact2/includes/class/map.php:128
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/map.php(3): map->displayMap(0, '-1', '0')
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/map.php on line 128
+[06-Aug-2017 01:14:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method base::isRelay() in /home/gmz1023/public_html/reddact2/includes/class/map.php:128
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/map.php(3): map->displayMap(0, '-1', '0')
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/map.php on line 128
+[06-Aug-2017 01:14:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method base::isRelay() in /home/gmz1023/public_html/reddact2/includes/class/map.php:128
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/map.php(3): map->displayMap(0, '-1', '0')
+#1 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/map.php on line 128
+[06-Aug-2017 01:26:17 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 30
+[06-Aug-2017 01:26:19 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 30
+[06-Aug-2017 01:26:29 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 30
+[06-Aug-2017 01:27:25 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 30
+[06-Aug-2017 01:27:26 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 30
+[06-Aug-2017 01:27:28 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 18
+[06-Aug-2017 01:27:29 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 18
+[06-Aug-2017 01:27:31 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 18
+[06-Aug-2017 01:27:59 America/New_York] PHP Notice:  Use of undefined constant MOVE_COST - assumed 'MOVE_COST' in /home/gmz1023/public_html/reddact2/move.php on line 30
+[06-Aug-2017 07:00:46 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 07:00:46 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 07:00:48 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 07:00:48 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 07:00:49 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 07:00:49 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 07:00:50 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 07:00:50 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 08:09:42 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[06-Aug-2017 08:09:42 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[06-Aug-2017 08:09:42 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[06-Aug-2017 08:09:42 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[06-Aug-2017 08:09:42 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[06-Aug-2017 08:09:42 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[06-Aug-2017 08:09:42 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[06-Aug-2017 19:39:54 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:39:54 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:39:56 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:39:56 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:39:59 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:39:59 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:40:01 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:40:01 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:40:47 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:40:47 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:40:47 UTC] PHP Notice:  Undefined variable: _SESSION in /home/gmz1023/public_html/reddact2/move.php on line 50
+[06-Aug-2017 19:40:54 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:40:54 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:40:54 UTC] PHP Notice:  Undefined variable: _SESSION in /home/gmz1023/public_html/reddact2/move.php on line 50
+[06-Aug-2017 19:41:53 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:41:53 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:41:53 UTC] PHP Notice:  Undefined variable: _SESSION in /home/gmz1023/public_html/reddact2/move.php on line 50
+[06-Aug-2017 19:41:59 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:41:59 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:41:59 UTC] PHP Notice:  Undefined variable: _SESSION in /home/gmz1023/public_html/reddact2/move.php on line 8
+[06-Aug-2017 19:42:36 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:42:36 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:42:36 UTC] PHP Notice:  Undefined variable: _SESSION in /home/gmz1023/public_html/reddact2/move.php on line 11
+[06-Aug-2017 19:43:20 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/test.php on line 2
+[06-Aug-2017 19:43:20 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/test.php on line 2
+[06-Aug-2017 19:43:20 UTC] PHP Notice:  Undefined variable: _SESSION in /home/gmz1023/public_html/reddact2/test.php on line 3
+[06-Aug-2017 19:43:22 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/move.php on line 2
+[06-Aug-2017 19:43:22 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/move.php on line 2
+[07-Aug-2017 01:30:06 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'reddact.userScores' doesn't exist in /home/gmz1023/public_html/reddact2/includes/class/math.php:38
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/math.php(38): PDO->prepare('SELECT \n\t\t\t\t(SE...')
+#1 /home/gmz1023/public_html/reddact2/includes/class/math.php(50): math->countTotalControlledStars('8')
+#2 /home/gmz1023/public_html/reddact2/includes/parts/vs/home.php(12): math->spehereOfInfluence('8')
+#3 /home/gmz1023/public_html/reddact2/visitSystem.php(26): include('/home/gmz1023/p...')
+#4 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 38
+[07-Aug-2017 01:30:40 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'reddact.userScores' doesn't exist in /home/gmz1023/public_html/reddact2/includes/class/math.php:38
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/math.php(38): PDO->prepare('SELECT \n\t\t\t\t(SE...')
+#1 /home/gmz1023/public_html/reddact2/includes/class/math.php(50): math->countTotalControlledStars('8')
+#2 /home/gmz1023/public_html/reddact2/includes/parts/vs/home.php(12): math->spehereOfInfluence('8')
+#3 /home/gmz1023/public_html/reddact2/visitSystem.php(26): include('/home/gmz1023/p...')
+#4 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 38
+[07-Aug-2017 01:31:54 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'reddact.userScores' doesn't exist in /home/gmz1023/public_html/reddact2/includes/class/math.php:38
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/math.php(38): PDO->prepare('SELECT \n\t\t\t\t(SE...')
+#1 /home/gmz1023/public_html/reddact2/includes/class/math.php(50): math->countTotalControlledStars('8')
+#2 /home/gmz1023/public_html/reddact2/includes/parts/vs/home.php(12): math->spehereOfInfluence('8')
+#3 /home/gmz1023/public_html/reddact2/visitSystem.php(26): include('/home/gmz1023/p...')
+#4 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 38
+[07-Aug-2017 05:35:05 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[07-Aug-2017 05:35:05 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[07-Aug-2017 05:35:05 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[07-Aug-2017 05:35:05 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 05:35:05 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 05:35:05 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 05:35:05 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 01:35:22 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'reddact.userScores' doesn't exist in /home/gmz1023/public_html/reddact2/includes/class/math.php:38
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/math.php(38): PDO->prepare('SELECT \n\t\t\t\t(SE...')
+#1 /home/gmz1023/public_html/reddact2/includes/class/math.php(50): math->countTotalControlledStars('9')
+#2 /home/gmz1023/public_html/reddact2/includes/parts/vs/home.php(12): math->spehereOfInfluence('9')
+#3 /home/gmz1023/public_html/reddact2/visitSystem.php(26): include('/home/gmz1023/p...')
+#4 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 38
+[07-Aug-2017 05:35:32 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[07-Aug-2017 05:35:32 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[07-Aug-2017 05:35:32 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[07-Aug-2017 05:35:32 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 05:35:32 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 05:35:32 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 05:35:32 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 05:35:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[07-Aug-2017 05:35:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[07-Aug-2017 05:35:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[07-Aug-2017 05:35:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 05:35:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 05:35:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 05:35:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 05:38:50 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[07-Aug-2017 05:38:50 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[07-Aug-2017 05:38:50 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[07-Aug-2017 05:38:50 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 05:38:50 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 05:38:50 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 05:38:50 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 11:04:49 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 11:05:22 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 15:06:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[07-Aug-2017 15:06:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[07-Aug-2017 15:06:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[07-Aug-2017 15:06:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 15:06:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 15:06:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 15:06:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 15:37:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[07-Aug-2017 15:37:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[07-Aug-2017 15:37:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[07-Aug-2017 15:37:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 15:37:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 15:37:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 15:37:47 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 16:01:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[07-Aug-2017 16:01:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[07-Aug-2017 16:01:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[07-Aug-2017 16:01:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 16:01:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[07-Aug-2017 16:01:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 16:01:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 12:03:01 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 13:58:44 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 13:59:38 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 14:01:31 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 15:59:20 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 18:12:42 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 20:21:03 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 21:28:37 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 21:28:47 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 21:28:56 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 21:55:23 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 02:01:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 02:01:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 02:01:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 02:01:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:01:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:01:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:01:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:12:40 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 02:12:40 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 02:12:40 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 02:12:40 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:12:40 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:12:40 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:12:40 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 22:25:53 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 22:26:18 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 22:30:42 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 22:41:20 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('8', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('8', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[07-Aug-2017 22:41:26 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('8', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('8', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[07-Aug-2017 22:41:40 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('8', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('8', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[08-Aug-2017 02:42:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 02:42:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 02:42:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 02:42:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:42:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:42:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:42:38 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 22:42:45 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('8', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('8', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[07-Aug-2017 22:42:52 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('8', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('8', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[07-Aug-2017 22:43:02 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('8', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('8', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[07-Aug-2017 22:43:05 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('8', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('8', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[07-Aug-2017 22:43:15 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 22:43:47 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 22:44:25 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 02:46:30 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 02:46:30 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 02:46:30 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 02:46:30 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:46:30 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:46:30 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:46:30 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 22:46:38 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 22:46:44 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 22:48:26 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 22:55:17 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 22:55:44 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 02:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 02:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 02:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 02:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:56:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:57:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 02:57:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 02:57:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 02:57:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:57:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:57:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:57:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 02:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 02:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 02:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:05:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:05:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:05:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:05:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:05:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:05:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:05:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:05:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:05:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:05:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:05:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:05:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:05:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:05:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 23:05:54 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:06:34 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:06:47 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:07:17 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 03:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:08:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:08:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:08:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:08:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:08:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:08:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:08:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 23:09:44 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 03:10:00 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:10:00 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:10:00 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:10:00 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:10:00 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:10:00 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:10:00 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 23:10:03 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:10:35 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:11:15 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:13:02 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:15:51 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:17:39 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:18:20 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 03:20:02 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:20:02 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:20:02 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:20:02 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:20:02 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:20:02 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:20:02 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:20:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:20:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:20:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:20:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:20:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:20:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:20:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:20:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:20:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:20:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:20:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:20:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:20:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:20:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:20:49 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:20:49 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:20:49 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:20:49 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:20:49 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:20:49 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:20:49 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 23:21:42 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 03:21:59 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:21:59 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:21:59 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:21:59 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:21:59 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:21:59 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:21:59 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 23:22:15 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:22:37 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:22:49 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 03:23:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:23:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:23:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:23:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:23:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:23:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:23:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:24:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 03:24:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 03:24:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 03:24:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:24:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 03:24:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 03:24:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[07-Aug-2017 23:24:22 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[07-Aug-2017 23:26:02 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 12:34:40 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/test.php on line 2
+[08-Aug-2017 12:34:40 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/test.php on line 2
+[08-Aug-2017 12:34:40 UTC] PHP Notice:  Undefined variable: base in /home/gmz1023/public_html/reddact2/test.php on line 6
+[08-Aug-2017 12:34:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function CaptureSystem() on null in /home/gmz1023/public_html/reddact2/test.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/gmz1023/public_html/reddact2/test.php on line 6
+[08-Aug-2017 12:34:50 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/test.php on line 2
+[08-Aug-2017 12:34:50 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/test.php on line 2
+[08-Aug-2017 12:34:50 UTC] PHP Notice:  Undefined variable: base in /home/gmz1023/public_html/reddact2/test.php on line 6
+[08-Aug-2017 12:34:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function CaptureSystem() on null in /home/gmz1023/public_html/reddact2/test.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/gmz1023/public_html/reddact2/test.php on line 6
+[08-Aug-2017 12:35:28 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/test.php on line 2
+[08-Aug-2017 12:35:28 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/test.php on line 2
+[08-Aug-2017 12:35:28 UTC] PHP Notice:  Undefined variable: base in /home/gmz1023/public_html/reddact2/test.php on line 6
+[08-Aug-2017 12:35:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function CaptureSystem() on null in /home/gmz1023/public_html/reddact2/test.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/gmz1023/public_html/reddact2/test.php on line 6
+[08-Aug-2017 12:35:50 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/test.php on line 2
+[08-Aug-2017 12:35:50 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/test.php on line 2
+[08-Aug-2017 12:35:50 UTC] PHP Notice:  Undefined variable: base in /home/gmz1023/public_html/reddact2/test.php on line 6
+[08-Aug-2017 12:35:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function CaptureSystem() on null in /home/gmz1023/public_html/reddact2/test.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/gmz1023/public_html/reddact2/test.php on line 6
+[08-Aug-2017 12:36:00 UTC] PHP Warning:  include(/bootstra.php): failed to open stream: No such file or directory in /home/gmz1023/public_html/reddact2/test.php on line 2
+[08-Aug-2017 12:36:00 UTC] PHP Warning:  include(): Failed opening '/bootstra.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/gmz1023/public_html/reddact2/test.php on line 2
+[08-Aug-2017 12:36:00 UTC] PHP Notice:  Undefined variable: base in /home/gmz1023/public_html/reddact2/test.php on line 7
+[08-Aug-2017 12:36:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function CaptureSystem() on null in /home/gmz1023/public_html/reddact2/test.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gmz1023/public_html/reddact2/test.php on line 7
+[08-Aug-2017 08:50:50 America/New_York] PHP Notice:  Undefined variable: sql in /home/gmz1023/public_html/reddact2/includes/class/feats.php on line 86
+[08-Aug-2017 12:37:18 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 16:00:02 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('8', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('8', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[08-Aug-2017 20:21:21 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 20:21:21 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 20:21:21 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 20:21:21 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 20:21:21 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 20:21:21 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 20:21:21 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 21:53:34 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 21:53:34 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 21:53:34 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 21:53:34 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 21:53:34 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 21:53:34 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 21:53:34 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 17:55:45 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('9', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('9', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[08-Aug-2017 17:55:51 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('9', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('9', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[08-Aug-2017 17:55:55 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('9', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('9', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[08-Aug-2017 17:55:58 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('9', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('9', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[08-Aug-2017 17:56:45 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('9', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('9', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[08-Aug-2017 21:56:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 21:56:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 21:56:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 21:56:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 21:56:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 21:56:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 21:56:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 17:58:57 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 19:59:15 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 23:59:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[08-Aug-2017 23:59:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[08-Aug-2017 23:59:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[08-Aug-2017 23:59:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 23:59:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[08-Aug-2017 23:59:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 23:59:53 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 00:01:31 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 00:01:31 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 00:01:31 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 00:01:31 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 00:01:31 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 00:01:31 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 00:01:31 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 20:02:26 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('9', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('9', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[08-Aug-2017 20:02:38 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('9', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('9', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[09-Aug-2017 00:05:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 00:05:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 00:05:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 00:05:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 00:05:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 00:05:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 00:05:19 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 00:11:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 00:11:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 00:11:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 00:11:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 00:11:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 00:11:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 00:11:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 01:57:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 01:57:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 01:57:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 01:57:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 01:57:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 01:57:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 01:57:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 21:58:20 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 22:00:47 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[09-Aug-2017 02:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 22:04:16 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 22:04:26 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[09-Aug-2017 02:08:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:08:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:08:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:08:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:08:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:08:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:08:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 22:08:55 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 22:09:01 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[08-Aug-2017 22:13:40 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[09-Aug-2017 02:22:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:22:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:22:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:22:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:22:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:22:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:22:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:07 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:23:07 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:23:07 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:23:07 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:07 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:07 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:07 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:23:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:23:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:23:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:23:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:23:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:23:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:23:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:23:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:23:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:25 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:23:25 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:23:25 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:23:25 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:25 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:25 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:25 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:35 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:23:35 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:23:35 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:23:35 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:35 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:35 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:35 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:23:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:23:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:23:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:23:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:23:46 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:26:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:26:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:26:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:26:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:26:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:26:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:26:43 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:28:11 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:28:11 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:28:11 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:28:11 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:28:11 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:28:11 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:28:11 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:28:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:28:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:28:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:28:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:28:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:28:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:28:18 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:28:41 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:28:41 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:28:41 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:28:41 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:28:41 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:28:41 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:28:41 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:29:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:29:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:29:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:29:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:29:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:29:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:29:29 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:39:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:39:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:39:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:39:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:39:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:39:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:39:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:39:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:39:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:39:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:39:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:39:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:39:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:39:20 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:41:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:41:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:41:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:41:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:41:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:41:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:41:36 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:41:39 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:41:39 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:41:39 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:41:39 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:41:39 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:41:39 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:41:39 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:45:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:45:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:45:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:45:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:45:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:45:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:45:54 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:49:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:49:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:49:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:49:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:49:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:49:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:49:09 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:55:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:55:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:55:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:55:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:55:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:55:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:55:01 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:55:48 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:55:48 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:55:48 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:55:48 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:55:48 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:55:48 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:55:48 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[08-Aug-2017 22:58:01 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[09-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 02:58:26 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 04:05:15 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 04:05:15 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 04:05:15 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 04:05:15 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 04:05:15 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 04:05:15 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 04:05:15 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 00:43:37 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('8', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('8', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[09-Aug-2017 00:43:40 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function inventory::updateUserInv(), 2 passed in /home/gmz1023/public_html/reddact2/includes/class/CMAC.php on line 157 and exactly 3 expected in /home/gmz1023/public_html/reddact2/includes/class/inventory.php:148
+Stack trace:
+#0 /home/gmz1023/public_html/reddact2/includes/class/CMAC.php(157): inventory->updateUserInv('8', 99)
+#1 /home/gmz1023/public_html/reddact2/cma.php(4): CMAC->CMA('8', '-666', 'attack', '1')
+#2 {main}
+  thrown in /home/gmz1023/public_html/reddact2/includes/class/inventory.php on line 148
+[09-Aug-2017 06:34:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 06:34:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 06:34:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 06:34:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 06:34:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 06:34:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 06:34:06 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 08:10:39 America/New_York] PHP Notice:  Undefined index: sid in /home/gmz1023/public_html/reddact2/cma.php on line 4
+[09-Aug-2017 08:10:39 America/New_York] PHP Notice:  Undefined index: method in /home/gmz1023/public_html/reddact2/cma.php on line 4
+[09-Aug-2017 08:10:49 America/New_York] PHP Notice:  Undefined index: sid in /home/gmz1023/public_html/reddact2/cma.php on line 4
+[09-Aug-2017 08:10:49 America/New_York] PHP Notice:  Undefined index: method in /home/gmz1023/public_html/reddact2/cma.php on line 4
+[09-Aug-2017 12:11:22 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[09-Aug-2017 12:11:22 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[09-Aug-2017 12:11:22 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[09-Aug-2017 12:11:22 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 12:11:22 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[09-Aug-2017 12:11:22 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 12:11:22 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[09-Aug-2017 08:11:23 America/New_York] PHP Notice:  Undefined index: sid in /home/gmz1023/public_html/reddact2/cma.php on line 4
+[09-Aug-2017 08:11:23 America/New_York] PHP Notice:  Undefined index: method in /home/gmz1023/public_html/reddact2/cma.php on line 4
+[09-Aug-2017 08:11:26 America/New_York] PHP Notice:  Undefined index: sid in /home/gmz1023/public_html/reddact2/cma.php on line 4
+[10-Aug-2017 18:38:15 America/New_York] PHP Notice:  Undefined index: user in /home/gmz1023/public_html/reddact2/sinfor.php on line 36
+[10-Aug-2017 22:06:28 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[10-Aug-2017 22:06:51 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[10-Aug-2017 22:07:20 America/New_York] PHP Warning:  Division by zero in /home/gmz1023/public_html/reddact2/includes/class/math.php on line 53
+[12-Aug-2017 21:14:56 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[12-Aug-2017 21:14:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[12-Aug-2017 21:14:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[12-Aug-2017 21:14:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[12-Aug-2017 21:14:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[12-Aug-2017 21:14:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[12-Aug-2017 21:14:57 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[12-Aug-2017 17:16:05 America/New_York] PHP Notice:  Undefined index: d in /home/gmz1023/public_html/reddact2/move.php on line 9
+[13-Aug-2017 07:11:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[13-Aug-2017 07:11:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[13-Aug-2017 07:11:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[13-Aug-2017 07:11:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[13-Aug-2017 07:11:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[13-Aug-2017 07:11:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[13-Aug-2017 07:11:10 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[13-Aug-2017 07:13:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[13-Aug-2017 07:13:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[13-Aug-2017 07:13:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[13-Aug-2017 07:13:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[13-Aug-2017 07:13:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[13-Aug-2017 07:13:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[13-Aug-2017 07:13:23 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[13-Aug-2017 07:45:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[13-Aug-2017 07:45:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[13-Aug-2017 07:45:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[13-Aug-2017 07:45:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[13-Aug-2017 07:45:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[13-Aug-2017 07:45:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[13-Aug-2017 07:45:14 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[13-Aug-2017 07:47:55 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 18
+[13-Aug-2017 07:47:55 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 29
+[13-Aug-2017 07:47:55 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 56
+[13-Aug-2017 07:47:55 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[13-Aug-2017 07:47:55 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 58
+[13-Aug-2017 07:47:55 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59
+[13-Aug-2017 07:47:55 UTC] PHP Notice:  Trying to get property of non-object in /home/gmz1023/public_html/reddact2/video.php on line 59

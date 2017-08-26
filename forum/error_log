@@ -1,0 +1,429 @@
+[17-Jul-2016 11:58:42 America/New_York] PHP Fatal error:  Unsupported operand types in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 27
+[17-Jul-2016 11:59:04 America/New_York] PHP Fatal error:  Call to undefined method base::displayReplies() in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 17
+[17-Jul-2016 11:59:38 America/New_York] PHP Fatal error:  Call to undefined method base::displayReplies() in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 17
+[17-Jul-2016 12:01:03 America/New_York] PHP Fatal error:  Call to undefined method base::displayReplies() in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 17
+[17-Jul-2016 12:04:20 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'body' in 'field list'' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT body, (S...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:05:18 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'body' in 'field list'' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT body, (S...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:05:24 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'body' in 'field list'' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT body, (S...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:05:35 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'body' in 'field list'' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT body, (S...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:06:33 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bodyText' in 'field list'' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT bodyText...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:07:01 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`forum_replies' at line 1' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT * FROM `...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:07:35 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`forum_replies' at line 1' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT * FROM `...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(40): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:13:36 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`forum_replies' at line 1' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT * FROM `...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(40): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:13:59 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`forum_replies' at line 1' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT * FROM `...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(40): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:14:08 America/New_York] PHP Notice:  Undefined index: username in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 43
+[17-Jul-2016 12:14:08 America/New_York] PHP Notice:  Undefined index: body in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 43
+[17-Jul-2016 12:14:26 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bodyText' in 'field list'' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT bodyText...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:14:37 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bodyText' in 'field list'' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT bodyText...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:14:54 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(SELECT username FROM users WHERE uid = replier) as username FROM forum_replies ' at line 1' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT bodyText...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:15:06 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bodyText' in 'field list'' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT bodyText...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:15:20 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bodyText' in 'field list'' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT bodyText...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 12:43:43 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'forumID' in 'where clause'' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:26
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(26): PDO->prepare('SELECT bodyText...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(41): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 26
+[17-Jul-2016 13:50:30 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'textBody' in 'field list'' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:13
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(13): PDO->prepare('INSERT INTO for...')
+#1 /home/thehave8/public_html/reddactgame/forum/reply.php(14): forum->insertReply(NULL, 1)
+#2 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 13
+[17-Jul-2016 13:50:56 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:14
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(14): PDOStatement->bindParam(':tid', NULL)
+#1 /home/thehave8/public_html/reddactgame/forum/reply.php(14): forum->insertReply(NULL, 1)
+#2 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 14
+[17-Jul-2016 13:51:12 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:14
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(14): PDOStatement->bindParam(':tid', NULL)
+#1 /home/thehave8/public_html/reddactgame/forum/reply.php(14): forum->insertReply(NULL, 1)
+#2 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 14
+[17-Jul-2016 13:51:55 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:14
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(14): PDOStatement->bindParam(':tid', NULL)
+#1 /home/thehave8/public_html/reddactgame/forum/reply.php(16): forum->insertReply(NULL, 1)
+#2 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 14
+[17-Jul-2016 13:51:57 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:14
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(14): PDOStatement->bindParam(':tid', '1')
+#1 /home/thehave8/public_html/reddactgame/forum/reply.php(16): forum->insertReply('1', 1)
+#2 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 14
+[17-Jul-2016 13:53:27 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:14
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(14): PDOStatement->bindParam(':tid', '1')
+#1 /home/thehave8/public_html/reddactgame/forum/reply.php(16): forum->insertReply('1', 1)
+#2 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 14
+[17-Jul-2016 13:53:33 America/New_York] PHP Warning:  Missing argument 3 for forum::insertReply(), called in /home/thehave8/public_html/reddactgame/forum/reply.php on line 16 and defined in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 10
+[17-Jul-2016 13:53:36 America/New_York] PHP Warning:  Missing argument 3 for forum::insertReply(), called in /home/thehave8/public_html/reddactgame/forum/reply.php on line 16 and defined in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 10
+[17-Jul-2016 13:53:41 America/New_York] PHP Warning:  Missing argument 3 for forum::insertReply(), called in /home/thehave8/public_html/reddactgame/forum/reply.php on line 16 and defined in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 10
+[17-Jul-2016 13:54:14 America/New_York] PHP Notice:  Undefined variable: html in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 28
+[17-Jul-2016 13:59:15 America/New_York] PHP Notice:  Undefined index: username in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 57
+[17-Jul-2016 13:59:15 America/New_York] PHP Notice:  Undefined index: username in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 57
+[17-Jul-2016 13:59:15 America/New_York] PHP Notice:  Undefined index: username in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 57
+[17-Jul-2016 13:59:30 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(SELECT username FROM users WHERE uid = user) as username FROM forum_replies WHE' at line 1' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:38
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(38): PDO->prepare('SELECT bodyText...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(54): forum->gatherReplies('1')
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(17): forum->displayReplies('1')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 38
+[18-Jul-2016 01:48:47 America/New_York] PHP Notice:  Undefined index: fid in /home/thehave8/public_html/reddactgame/forum/viewForum.php on line 18
+[18-Jul-2016 01:51:00 America/New_York] PHP Notice:  Undefined index: fid in /home/thehave8/public_html/reddactgame/forum/viewForum.php on line 18
+[18-Jul-2016 10:51:15 America/New_York] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 35
+[18-Jul-2016 10:51:15 America/New_York] PHP Warning:  preg_replace(): Parameter mismatch, pattern is a string while replacement is an array in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 35
+[18-Jul-2016 10:51:15 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/includes/class/forum.php:35) in /home/thehave8/public_html/reddactgame/forum/reply.php on line 12
+[18-Jul-2016 11:12:57 America/New_York] PHP Fatal error:  Cannot access empty property in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 41
+[18-Jul-2016 11:13:20 America/New_York] PHP Fatal error:  Cannot access empty property in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 41
+[18-Jul-2016 11:13:36 America/New_York] PHP Warning:  require_once(../nbbc.php): failed to open stream: No such file or directory in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 39
+[18-Jul-2016 11:13:36 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../nbbc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 39
+[18-Jul-2016 11:13:47 America/New_York] PHP Fatal error:  Cannot access empty property in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 41
+[18-Jul-2016 11:14:00 America/New_York] PHP Fatal error:  Call to a member function Parse() on null in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 41
+[18-Jul-2016 11:19:00 America/New_York] PHP Notice:  Undefined variable: thiis in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 99
+[18-Jul-2016 11:19:00 America/New_York] PHP Notice:  Trying to get property of non-object in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 99
+[18-Jul-2016 11:19:10 America/New_York] PHP Notice:  Undefined property: base::$limit in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 99
+[18-Jul-2016 11:19:46 America/New_York] PHP Notice:  Undefined property: base::$limit in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 99
+[18-Jul-2016 12:27:52 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 4
+[18-Jul-2016 14:30:05 America/New_York] PHP Notice:  Undefined variable: limit in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 111
+[18-Jul-2016 14:30:05 America/New_York] PHP Notice:  Undefined variable: limit in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 112
+[18-Jul-2016 14:49:55 America/New_York] PHP Notice:  Undefined variable: total_pages in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 122
+[18-Jul-2016 14:49:55 America/New_York] PHP Notice:  Undefined variable: total_pages in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 123
+[18-Jul-2016 14:50:15 America/New_York] PHP Notice:  Undefined variable: total_pages in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 122
+[18-Jul-2016 14:50:15 America/New_York] PHP Notice:  Undefined variable: total_pages in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 123
+[18-Jul-2016 14:55:03 America/New_York] PHP Warning:  Division by zero in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 112
+[18-Jul-2016 14:55:10 America/New_York] PHP Notice:  Undefined variable: totPage in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 123
+[18-Jul-2016 14:59:04 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 14:59:04 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 14:59:07 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 14:59:07 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 15:00:17 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 15:00:17 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 15:00:25 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 15:00:25 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 15:00:27 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 15:00:27 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 15:00:28 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 15:00:28 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 15:01:44 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 15:01:44 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 15:01:46 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 15:01:46 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 15:01:52 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 15:01:52 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 15:30:03 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 15:30:03 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 15:30:09 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 15:30:09 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 16:10:51 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 16:10:51 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 18:04:13 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 18:04:13 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 18:04:17 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 18:04:17 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 23:29:52 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 23:29:52 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[18-Jul-2016 23:29:54 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[18-Jul-2016 23:29:54 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[19-Jul-2016 00:51:18 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[19-Jul-2016 00:51:18 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[19-Jul-2016 00:56:10 America/New_York] PHP Parse error:  syntax error, unexpected ',' in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 127
+[19-Jul-2016 00:56:49 America/New_York] PHP Notice:  Undefined variable: pages in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 126
+[19-Jul-2016 00:56:49 America/New_York] PHP Notice:  Undefined variable: pages in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 127
+[19-Jul-2016 00:56:49 America/New_York] PHP Notice:  Undefined variable: start in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 127
+[19-Jul-2016 00:56:49 America/New_York] PHP Notice:  Undefined variable: end in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 127
+[19-Jul-2016 00:56:49 America/New_York] PHP Notice:  Undefined variable: total in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 127
+[19-Jul-2016 00:57:35 America/New_York] PHP Notice:  Undefined variable: start in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 128
+[19-Jul-2016 00:57:35 America/New_York] PHP Notice:  Undefined variable: end in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 128
+[19-Jul-2016 00:57:59 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 00:57:59 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 00:57:59 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 9
+[19-Jul-2016 00:57:59 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[19-Jul-2016 00:58:43 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 00:58:43 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 00:58:43 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 9
+[19-Jul-2016 00:58:43 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[19-Jul-2016 00:58:46 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 00:58:46 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 00:58:46 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 9
+[19-Jul-2016 00:58:46 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[19-Jul-2016 01:18:09 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:18:21 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:18:59 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:18:59 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:18:59 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 9
+[19-Jul-2016 01:18:59 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:18:59 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 135
+[19-Jul-2016 01:19:18 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:19:18 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:19:18 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 9
+[19-Jul-2016 01:19:18 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:19:18 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 129
+[19-Jul-2016 01:20:52 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:20:52 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:20:52 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 9
+[19-Jul-2016 01:20:52 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:20:52 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 129
+[19-Jul-2016 01:22:47 America/New_York] PHP Notice:  Undefined variable: num_rows in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 111
+[19-Jul-2016 01:26:44 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:26:44 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:26:44 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 9
+[19-Jul-2016 01:26:44 America/New_York] PHP Notice:  Undefined index: p in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:26:57 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:26:57 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:26:57 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 9
+[19-Jul-2016 01:27:10 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:27:10 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:27:10 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 9
+[19-Jul-2016 01:27:37 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:27:37 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:28:32 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:28:32 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:28:32 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 9
+[19-Jul-2016 01:28:32 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:29:06 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:29:06 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:29:06 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 11
+[19-Jul-2016 01:29:06 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 11
+[19-Jul-2016 01:29:06 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 13
+[19-Jul-2016 01:29:06 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:29:15 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:29:15 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 7
+[19-Jul-2016 01:29:15 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 11
+[19-Jul-2016 01:29:15 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:7) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 11
+[19-Jul-2016 01:29:15 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 13
+[19-Jul-2016 01:29:15 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:29:28 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 11
+[19-Jul-2016 01:29:28 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/viewTopic.php:11) in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 11
+[19-Jul-2016 01:29:28 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/viewTopic.php on line 13
+[19-Jul-2016 01:29:28 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:29:31 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:29:35 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:32:54 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 110
+[19-Jul-2016 01:35:16 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 111
+[19-Jul-2016 01:38:37 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 84
+[19-Jul-2016 01:47:14 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 84
+[19-Jul-2016 07:07:03 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 84
+[19-Jul-2016 07:07:41 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 84
+[19-Jul-2016 07:08:00 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 84
+[19-Jul-2016 07:08:04 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 84
+[19-Jul-2016 07:08:10 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 84
+[19-Jul-2016 07:08:18 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 84
+[19-Jul-2016 10:21:53 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 84
+[19-Jul-2016 11:01:17 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 84
+[19-Jul-2016 11:25:27 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/includes/class/forum.php:1) in /home/thehave8/public_html/reddactgame/includes/parts/head.php on line 2
+[19-Jul-2016 11:25:27 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/includes/class/forum.php:1) in /home/thehave8/public_html/reddactgame/includes/parts/head.php on line 3
+[19-Jul-2016 11:25:43 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/includes/class/forum.php:1) in /home/thehave8/public_html/reddactgame/includes/parts/head.php on line 2
+[19-Jul-2016 11:25:43 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/includes/class/forum.php:1) in /home/thehave8/public_html/reddactgame/includes/parts/head.php on line 3
+[19-Jul-2016 12:17:42 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 106
+[19-Jul-2016 12:18:15 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 106
+[19-Jul-2016 12:18:47 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 106
+[19-Jul-2016 13:59:35 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 106
+[19-Jul-2016 14:01:29 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 106
+[19-Jul-2016 14:04:57 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM 
+					forum_replies as f,
+					users as u
+				WHERE tid = ?
+				LIMIT
+					' at line 9' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:93
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(93): PDO->prepare('SELECT\n\t\t\t\t\tf.b...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(117): forum->gatherReplies('2', 0, 10)
+#2 /home/thehave8/public_html/reddactgame/forum/viewTopic.php(13): forum->displayReplies('2')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 93
+[19-Jul-2016 14:05:16 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 113
+[19-Jul-2016 14:06:14 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 112
+[19-Jul-2016 14:19:07 America/New_York] PHP Notice:  Undefined index: tid in /home/thehave8/public_html/reddactgame/forum/newtopic.php on line 10
+[19-Jul-2016 14:19:07 America/New_York] PHP Notice:  Undefined index: body in /home/thehave8/public_html/reddactgame/forum/newtopic.php on line 10
+[19-Jul-2016 14:19:07 America/New_York] PHP Warning:  Missing argument 4 for forum::insertTopic(), called in /home/thehave8/public_html/reddactgame/forum/newtopic.php on line 10 and defined in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 10
+[19-Jul-2016 14:19:07 America/New_York] PHP Notice:  Undefined variable: title in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 17
+[19-Jul-2016 14:19:21 America/New_York] PHP Notice:  Undefined variable: db in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 24
+[19-Jul-2016 14:19:21 America/New_York] PHP Notice:  Trying to get property of non-object in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 24
+[19-Jul-2016 14:19:40 America/New_York] PHP Notice:  Undefined property: PDO::$lastInsertId in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 24
+[19-Jul-2016 14:20:01 America/New_York] PHP Notice:  Undefined property: PDO::$lastInsertId in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 24
+[19-Jul-2016 14:20:10 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 112
+[19-Jul-2016 14:20:38 America/New_York] PHP Notice:  Undefined property: PDOStatement::$lastInsertId in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 24
+[19-Jul-2016 14:21:03 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 112
+[19-Jul-2016 12:24:11 America/Denver] PHP Warning:  include(ABSPATHincludes/parts/head.php): failed to open stream: No such file or directory in /home/thehave8/public_html/reddactgame/forum/post.php on line 8
+[19-Jul-2016 12:24:11 America/Denver] PHP Warning:  include(ABSPATHincludes/parts/head.php): failed to open stream: No such file or directory in /home/thehave8/public_html/reddactgame/forum/post.php on line 8
+[19-Jul-2016 12:24:11 America/Denver] PHP Warning:  include(): Failed opening 'ABSPATHincludes/parts/head.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thehave8/public_html/reddactgame/forum/post.php on line 8
+[19-Jul-2016 12:24:25 America/Denver] PHP Warning:  include(ABSPATH/includes/parts/head.php): failed to open stream: No such file or directory in /home/thehave8/public_html/reddactgame/forum/post.php on line 8
+[19-Jul-2016 12:24:25 America/Denver] PHP Warning:  include(ABSPATH/includes/parts/head.php): failed to open stream: No such file or directory in /home/thehave8/public_html/reddactgame/forum/post.php on line 8
+[19-Jul-2016 12:24:25 America/Denver] PHP Warning:  include(): Failed opening 'ABSPATH/includes/parts/head.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thehave8/public_html/reddactgame/forum/post.php on line 8
+[19-Jul-2016 12:24:45 America/Denver] PHP Warning:  include(../bootstrap.php): failed to open stream: No such file or directory in /home/thehave8/public_html/reddactgame/forum/post.php on line 8
+[19-Jul-2016 12:24:45 America/Denver] PHP Warning:  include(../bootstrap.php): failed to open stream: No such file or directory in /home/thehave8/public_html/reddactgame/forum/post.php on line 8
+[19-Jul-2016 12:24:45 America/Denver] PHP Warning:  include(): Failed opening '../bootstrap.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thehave8/public_html/reddactgame/forum/post.php on line 8
+[19-Jul-2016 12:24:45 America/Denver] PHP Warning:  include(ABSPATH/includes/parts/head.php): failed to open stream: No such file or directory in /home/thehave8/public_html/reddactgame/forum/post.php on line 9
+[19-Jul-2016 12:24:45 America/Denver] PHP Warning:  include(ABSPATH/includes/parts/head.php): failed to open stream: No such file or directory in /home/thehave8/public_html/reddactgame/forum/post.php on line 9
+[19-Jul-2016 12:24:45 America/Denver] PHP Warning:  include(): Failed opening 'ABSPATH/includes/parts/head.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/thehave8/public_html/reddactgame/forum/post.php on line 9
+[19-Jul-2016 14:34:52 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/newtopic.php:11) in /home/thehave8/public_html/reddactgame/forum/newtopic.php on line 14
+[19-Jul-2016 14:35:23 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 113
+[19-Jul-2016 14:35:28 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 113
+[19-Jul-2016 14:35:45 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 113
+[19-Jul-2016 14:36:12 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 113
+[19-Jul-2016 14:36:17 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 113
+[19-Jul-2016 14:37:46 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 113
+[19-Jul-2016 14:52:22 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 134
+[19-Jul-2016 18:01:58 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[19-Jul-2016 18:02:07 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[19-Jul-2016 18:02:15 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[19-Jul-2016 20:13:33 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[19-Jul-2016 20:13:38 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[19-Jul-2016 20:13:42 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 01:06:30 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 01:06:33 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 01:06:37 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 01:06:47 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 01:07:39 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 01:35:29 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 02:11:38 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 02:14:01 America/New_York] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 224
+[20-Jul-2016 02:14:35 America/New_York] PHP Fatal error:  Call to undefined method DateTime::fomrat() in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 199
+[20-Jul-2016 02:21:04 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 02:26:00 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 11:13:41 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:09:40 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:09:51 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:10:14 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:10:23 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:10:30 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:10:48 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:10:50 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:10:51 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:10:53 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:10:54 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:10:56 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:10:57 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:10:59 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:11:01 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:11:05 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:11:07 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:11:16 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:11:44 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:14:01 America/New_York] PHP Notice:  Undefined index: fid in /home/thehave8/public_html/reddactgame/forum/post.php on line 17
+[20-Jul-2016 12:14:08 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:14:15 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:14:23 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 12:59:51 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 13:04:24 America/New_York] PHP Notice:  Undefined index: HTTP_REFERER in /home/thehave8/public_html/reddactgame/forum/post.php on line 16
+[20-Jul-2016 13:04:24 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/post.php:10) in /home/thehave8/public_html/reddactgame/forum/post.php on line 16
+[20-Jul-2016 13:04:35 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thehave8/public_html/reddactgame/forum/post.php:10) in /home/thehave8/public_html/reddactgame/forum/post.php on line 16
+[20-Jul-2016 13:05:45 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 13:07:07 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 142
+[20-Jul-2016 13:10:34 America/New_York] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 270
+[20-Jul-2016 13:11:04 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'thehave8_reddact.forum_names' doesn't exist' in /home/thehave8/public_html/reddactgame/includes/class/forum.php:13
+Stack trace:
+#0 /home/thehave8/public_html/reddactgame/includes/class/forum.php(13): PDO->prepare('SELECT count(fo...')
+#1 /home/thehave8/public_html/reddactgame/includes/class/forum.php(22): forum->forumExists('1')
+#2 /home/thehave8/public_html/reddactgame/forum/newtopic.php(10): forum->insertTopic('1', 6, 'test', 'test')
+#3 {main}
+  thrown in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 13
+[20-Jul-2016 13:11:21 America/New_York] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 14
+[20-Jul-2016 13:14:09 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:15:24 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:42:01 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:43:42 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:44:41 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:44:44 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:44:48 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:44:50 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:44:52 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:44:54 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:44:56 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:45:00 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:45:09 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:45:17 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 13:45:30 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 14:04:58 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155
+[20-Jul-2016 14:05:26 America/New_York] PHP Notice:  Undefined index: page in /home/thehave8/public_html/reddactgame/includes/class/forum.php on line 155

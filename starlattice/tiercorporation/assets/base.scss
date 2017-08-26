@@ -1,0 +1,16 @@
+$basecolor: #7788AA;
+body { background-color: $basecolor;
+		font-size: 14px;
+ } 
+
+#ComingSoon {
+	background-color: darken($basecolor, 30%);	
+	color: #fff;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	h1 {
+		font-size: 115%;
+		padding: .5em;	
+	}
+}

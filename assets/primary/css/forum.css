@@ -1,0 +1,143 @@
+.forum {
+  background-color: #f1f1f1;
+  width: 75%;
+  margin: 0 auto;
+  background-color: #f1f1f1; }
+  .forum.controls {
+    width: 100%; }
+    .forum.controls a {
+      text-decoration: none;
+      border: 1px solid black;
+      background-color: #8b8b8b; }
+      .forum.controls a:nth-child(even) {
+        float: right; }
+  .forum .topic:nth-child(odd) {
+    background-color: #e9e9e9; }
+  .forum .reply {
+    float: left;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 10%; }
+    .forum .reply .body {
+      width: 80%;
+      float: left;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 3%; }
+      .forum .reply .body .metainfo {
+        background-color: #333 !important; }
+    .forum .reply .userinfo {
+      float: left;
+      width: 7%;
+      padding: 3%;
+      text-align: center;
+      border-right: 1px solid #5C5C5C;
+      display: inline-block; }
+      .forum .reply .userinfo img {
+        height: 100%;
+        width: 100%;
+        display: block;
+        float: left; }
+      .forum .reply .userinfo h1, .forum .reply .userinfo h2 {
+        width: 100%;
+        display: block; }
+      .forum .reply .userinfo h1 {
+        font-size: 16px; }
+      .forum .reply .userinfo h2 {
+        font-size: 12px; }
+    .forum .reply.form textarea {
+      width: 100%; }
+    .forum .reply.form input[type=text] {
+      width: 100%; }
+  .forum .topic-holder .topic {
+    padding: 3px;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid black; }
+  .forum footer {
+    width: 100%;
+    display: block; }
+    .forum footer .stats {
+      font-size: 75%;
+      background-color: #c1c1c1; }
+      .forum footer .stats h1, .forum footer .stats h2 {
+        display: inline-block;
+        padding: 0;
+        font-size: 101%; }
+  .forum ul {
+    backgroundColor: white !important;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+    .forum ul li {
+      list-style: none; }
+    .forum ul .subforum {
+      background-color: white !important;
+      display: inline-block;
+      width: 30% !important;
+      padding: 3%;
+      margin-right: 10px;
+      border: 1px inset #8E8E8E; }
+      .forum ul .subforum:hover {
+        border: 1px inset #8E8E8E;
+        background-color: #999999 !important;
+        color: #fff; }
+      .forum ul .subforum .link {
+        font-size: 120%; }
+        .forum ul .subforum .link a {
+          text-decoration: none;
+          color: #000000; }
+      .forum ul .subforum .info {
+        margin-top: 2%;
+        margin-bottom: 1%;
+        font-style: italic;
+        font-size: 70%; }
+        .forum ul .subforum .info a {
+          margin-top: 1%;
+          margin-bottom: 2%;
+          display: block;
+          text-decoration: none; }
+      .forum ul .subforum .catagoryTitle {
+        background-color: white; }
+    .forum ul .catagory {
+      font-weight: bold;
+      font-size: 110%;
+      border: 1px outset #8E8E8E;
+      color: #000;
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+      .forum ul .catagory ul li {
+        display: inline-block;
+        width: 100%; }
+
+.topic-holder .topic {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid black;
+  background-color: #f1f1f1; }
+.topic-holder .status {
+  width: 20%; }
+.topic-holder .link {
+  width: 35%; }
+.topic-holder .data {
+  width: 45%; }
+.topic-holder div {
+  display: inline-block !important s;
+  float: left;
+  line-height: 1vw;
+  padding: 1%; }
+
+.new-topic textarea {
+  display: block;
+  height: 250px;
+  width: 80%;
+  margin: 0 auto;
+  float: left; }
+.new-topic.title input {
+  width: 100%; }
+.new-topic.submit input {
+  width: 100%; }
+
+/*# sourceMappingURL=forum.css.map */

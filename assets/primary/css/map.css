@@ -1,0 +1,100 @@
+div .column {
+  display: flex;
+  height: 6.2%; }
+  div .column .space, div .column .star, div .column .trans, div .column .nullSpace, div .column .warp {
+    width: 6.25%;
+    height: 100%;
+    display: inline-flex;
+    box-sizing: border-box; }
+
+#map {
+  border: 1px solid white;
+  float: right;
+  margin: 0 auto !important;
+  display: inline-block;
+  flex-grow: 1;
+  width: 1vw !important;
+  background: url(../../imgs/background.png) repeat;
+  overflow: visible;
+  clear: both; }
+  #map div.warp {
+    background: url(../../imgs/warp.png) center no-repeat;
+    background-size: 40%;
+    background-color: #000;
+    box-sizing: border-box; }
+  #map.hell {
+    background: url(../../imgs/background2.png); }
+    #map.hell .star {
+      background: url(../../imgs/hellstar.png) center no-repeat !important;
+      border: 1px solid #000333;
+      width: 1vw;
+      height: 1vw;
+      background-color: #fff;
+      box-sizing: border-box;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      border-radius: 50px; }
+  #map .space {
+    box-sizing: border-box; }
+    #map .space:hover {
+      box-sizing: border-box;
+      border: 1px solid white; }
+  #map .star {
+    background: #000 url(../../imgs/star.png) center no-repeat;
+    background-size: 50%;
+    background-color: #000;
+    box-sizing: border-box; }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
+@keyframes transmission {
+  0% {
+    background-color: #399BA7; }
+  50% {
+    background-color: #072A98; }
+  100% {
+    background-color: #399BA7; } }
+.owned {
+  border-style: solid;
+  border-width: 1px;
+  border-color: green; }
+
+.unmined {
+  border: outset 1px #055202; }
+
+.enemy {
+  border: 1px solid red !important; }
+
+.trans {
+  opacity: 0.5;
+  background-color: #377F0A;
+  background-size: 100%;
+  box-sizing: border-box;
+  border-radius: 0;
+  animation-iteration-count: infinite;
+  animation-name: transmission;
+  animation-duration: 3s;
+  animation-fill-mode: both; }
+  .trans:hover {
+    background-color: #146803; }
+
+.store {
+  border: 1px solid yellow !important; }
+
+.SL {
+  border: 1px solid blue !important; }
+
+#map .star:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%); }
+
+#relay {
+  background-color: #490405;
+  color: #fff; }
+
+/*# sourceMappingURL=map.css.map */

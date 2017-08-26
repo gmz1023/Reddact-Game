@@ -1,0 +1,66 @@
+.new-menu {
+  nav {
+    width: 50%;
+    display: inline-block;
+    a {
+		color: #000;
+		
+		text-decoration: none;
+      border: 1px solid black;
+      width: 20%;
+      padding: 2%;
+      text-align: center;
+	  &:hover { background-color: #011E32; color: #fff; } 
+    }
+  }
+  background-color: #fff !important;
+  float: right;
+  width: 100%;
+}
+
+nav {
+  &.right {
+    float: right;
+    text-align: right;
+  }
+  &.left {
+    float: left;
+    text-align: left;
+    a {
+      float: left;
+    }
+  }
+  &.right a {
+    float: right;
+  }
+}
+
+/* New semi-Universal HUD */
+
+.unihud {
+  float: right;
+  position: relative;
+  right: 10px;
+  top: 10px;
+  .hud-item {
+    margin: 10px;
+    background-color: #fff;
+    width: 175px;
+    div {
+      display: inline-block;
+    }
+  }
+}
+
+.hud-item {
+  .hud-item-label {
+    padding: 3px;
+    background-color: #3E769F;
+    color: #fff;
+    width: 10%;
+  }
+  .hud-item-value {
+    text-align: center !important;
+    width: 90%;
+  }
+}

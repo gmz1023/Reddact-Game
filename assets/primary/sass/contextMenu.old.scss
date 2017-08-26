@@ -1,0 +1,155 @@
+#cMenu {
+  float: right;
+  width: 19.99%;
+  height: 100%;
+  background: #111;
+  border-left: 1px solid white;
+  box-sizing: border-box;
+  h1 {
+    display: inline-block;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-size: 120%;
+    text-align: center;
+    width: 100%;
+    border: 1px solid black !important;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #111;
+    text-align: left;
+    text-indent: 14%;
+    &:before {
+      content: "+ ";
+    }
+  }
+  nav {
+    background-color: #fff !important;
+    line-height: 25px;
+    margin: 5%;
+    a {
+      color: #fff;
+      margin: 1%;
+      font-weight: bold;
+      border: 1px solid white;
+      display: inline-block;
+      text-decoration: none;
+      box-sizing: border-box;
+      font-size: 75%;
+      float: left;
+      width: 48%;
+      text-align: center;
+      &:hover {
+        background-color: #fff;
+        color: #222;
+      }
+    }
+  }
+}
+
+h1.small {
+  font-size: 75%;
+}
+
+/***********************************************
+	
+	Upgrade Styles
+	
+************************************************/
+
+#upgrade_holder {
+  float: left;
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 38%;
+  margin-top: 20px;
+  display: table;
+  .row {
+    display: table-row;
+  }
+}
+
+div.upgrade {
+  float: left;
+  display: table-cell;
+  padding: 0.5%;
+  text-align: center;
+  width: 100%;
+  border: 1px solid black !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 100%;
+  color: #fff;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+#upgrade_holder {}
+
+div.upgrade {
+  span {}
+  &:hover {
+    background-color: #ccc !important;
+  }
+}
+
+#technology, #refineries {
+  background-color: #AB0609;
+  color: #fff;
+}
+
+#economy, #banks, #warehouse {
+  background-color: #237806;
+}
+
+#medicine, #hospital {
+  background-color: #17829E;
+}
+
+#offense {
+  background-color: #680304;
+}
+
+#defense {
+  background-color: #D94B0A;
+}
+
+#biology {
+  background-color: #096029;
+}
+
+/*************************
+	 
+	 
+	 Coffers 
+	 
+	 
+*****************************/
+
+#ubanks {
+  float: left;
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #111;
+  border: 3px solid #333;
+  th {
+    background-color: #333;
+    padding: 5px;
+    color: #fff;
+    border: 1px outset black;
+    font-size: 85%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    &.l {
+      text-align: right;
+    }
+  }
+  td {
+    text-align: center;
+    width: 50%;
+    color: #000;
+    background-color: #f1f1f1;
+    border: 1px inset black;
+  }
+}

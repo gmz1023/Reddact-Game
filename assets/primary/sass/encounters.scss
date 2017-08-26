@@ -1,0 +1,51 @@
+.hidden { display: none; } 
+#forcedEncounter {
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+	&.hidden { display: none; } 
+	.forcedEncounter-Holder
+	{
+		background-color: rgba(50,50,50,1.00) !important;
+		padding: 1%;
+		.forced-encounter
+		{
+			background-color: #fff;
+			&.title { 
+				width: 100%; text-align: center; 
+				background-color: #333;
+				height: 15%;
+				font-weight: bold;
+				}
+			&.body {
+				width: 100%;
+				border: 1px solid black; 
+				height: 70%;	
+				p { 
+					margin: 1%;
+				}
+			}
+			&.action {
+				&.actionButton { 		
+				display: inline-block;
+				width: 50%; 
+				padding: 0;
+				margin: 0;
+				height: 15%;
+				box-sizing:border-box;
+				}	
+			}
+		}
+		margin: 0 auto;
+		z-index:1000;
+		position:absolute;
+		transform: translate(50%,70%);
+		 width: 50%;
+  		height: 20%;
+		opacity: 1 !important;	
+	}
+}

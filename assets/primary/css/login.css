@@ -1,0 +1,32 @@
+.cma-login-form {
+  margin: 0 auto;
+  border-top: 7px double #000;
+  border-bottom: 7px double #000;
+  width: 25%;
+  background-color: #333; }
+  .cma-login-form h1 {
+    font-size: 150%;
+    display: block;
+    background-color: #999;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em; }
+  .cma-login-form input[type=text], .cma-login-form input[type=password] {
+    padding: 0.35em;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%; }
+  .cma-login-form #actions {
+    background-color: #f1f1f1; }
+    .cma-login-form #actions input[type=submit] {
+      width: 40.5%; }
+    .cma-login-form #actions .link-holder {
+      width: 77%; }
+      .cma-login-form #actions .link-holder a {
+        text-decoration: none;
+        display: inline-block;
+        width: 50%;
+        padding: 0.33em; }
+
+/*# sourceMappingURL=login.css.map */

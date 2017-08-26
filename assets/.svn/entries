@@ -1,0 +1,112 @@
+10
+
+dir
+0
+svn://www.reddactgame.com:3690/home/thehave8/public_html/reddactgame/repo/assets
+svn://www.reddactgame.com:3690/home/thehave8/public_html/reddactgame/repo
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+incomplete
+8be18773-3f6e-42c8-9847-afbbe3c5723b
+
+imgs
+dir
+
+
+
+add
+
+jquery
+dir
+
+
+
+add
+
+reddact.js
+file
+
+
+
+add
+
+primary
+dir
+
+
+
+add
+
+images
+dir
+
+
+
+add
+
+jquery-ui.js
+file
+
+
+
+add
+
+jquery.css
+file
+
+
+
+add
+
+pure-release-0.6.0
+dir
+
+
+
+add
+
+jquery.js
+file
+
+
+
+add
+
+ajax-loader.gif
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+reddact.0.0.1.js
+file
+
+
+
+add
+

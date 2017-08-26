@@ -1,0 +1,41 @@
+.media_container { 
+
+	float: right;
+	width: 100%; 
+	margin: {top: 3%; bottom: 3%; } 
+	height: 40%; 
+		.show_root {
+					border: 1px solid white;
+					width: 50%;
+					height: 100%; 
+					margin: 0 auto;
+		}
+} 
+/* Article Stuff */
+.news
+{
+	position: relative;
+	top: 1em;
+	transform:translate(0,20%);
+	width: 75%;
+	margin: 0 auto;
+		article{ 
+		padding: 1em; 
+		border: { bottom: 1px solid black ; } 
+		.article { 
+		&.title {
+			h1 { 
+				font-size: 150%; 
+				padding: { top: 1em; bottom: 1em; } 
+			 }
+		}
+		&.body { 
+			p { padding: {top: 0; bottom: 1%; left: 4%; right: 0;} }
+		}
+		}
+			margin: 0 auto;
+			width: 85%;
+		background-color: #f1f1f1;
+	
+	}
+}

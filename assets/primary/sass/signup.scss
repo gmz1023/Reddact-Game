@@ -1,0 +1,207 @@
+.holder {
+	float: left;
+	width: 100%;
+	background-color: #000;
+	p { padding: 1%; }  
+}
+.local-group {
+  background-color: #000;
+  float: right;
+  height: 100%;
+}
+
+.login-box {
+  float: right;
+  background-color: #020B22;
+  width: 100%;
+  text-align: right;
+  color: #fff;
+}
+
+.not-loggedin {
+  width: 100% !important;
+}
+
+.login-box {
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  input {
+    text-align: center;
+    width: 25%;
+    line-height: 2vw;
+  }
+}
+
+.welcome {}
+
+.signup {
+  box-sizing: border-box;
+  width: 45% !important;
+  background-color: #061539;
+  border: 1px groove #160408;
+  padding: 1%;
+  margin: 0 auto;
+}
+
+.loggedin {
+  float: left !important;
+}
+
+.logo img {
+  filter: invert(100%) !important;
+  box-sizing: border-box;
+  height: 125px;
+  width: 300px;
+}
+
+.main-sequence {
+  width: 100%;
+  background: url(../../imgs/scrollBG.png) #0D1F49 repeat;
+  -webkit-animation: backgroundScroll 20s linear infinite;
+  animation: backgroundScroll 20s linear infinite;
+  float: left;
+}
+
+.signup img {
+  height: 45%;
+  width: 45%;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-sign-up {
+  background-color: #CDCACA;
+  padding: 1%;
+  text-align: left;
+  margin: 0 auto;
+  h1 {
+		font-size: 200%;
+		text-align: center; 
+  }
+  p { 
+  	padding: 2%;
+  }
+ 	.link-holder { 
+		margin: 0 auto;
+		width: 60%;
+	}
+  a.do-your-part {
+	  box-sizing:padding-box;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #02081A;
+    border: 1px outset #020B21;
+    outline: 1px groove #02081A;
+    padding: 1%;
+    width: 45%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 110%;
+	text-align: center;
+    letter-spacing: 4px;
+  }
+}
+
+.dwarf {
+  width: 100%;
+  float: left;
+  background-color: #000104;
+}
+
+.buffer {
+  display: inline-block;
+  width: 5%;
+  float: left;
+}
+
+.calltoarms {
+  float: left;
+  width: 28.3%;
+  height: 250px;
+  margin-top: 1%;
+  margin-right: 1%;
+  background-color: #f1f1f1;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  .cta-description {
+	  padding: 5%;
+	  font-size: 80%;
+	  }
+}
+
+.beacon {
+  text-align: center;
+  background-color: #142654;
+  color: #fff;
+}
+
+.about-us {
+  margin-top: 1%;
+  float: left;
+  position: relative;
+  font-size: 1vw;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  p {
+	padding: 3%;  
+	text-align: left;
+  }
+  h3 {
+    background-color: #0A0223;
+    color: #fff;
+	padding: 0;
+	float: left;
+	width: 100%;
+  }
+}
+
+
+
+@-webkit-keyframes backgroundScroll {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -400px 0;
+  }
+}
+
+
+@keyframes backgroundScroll {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -400px 0;
+  }
+}
+
+
+.black-hole {
+  float: right;
+  background-color: #000000 !important;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  right: 15%;
+  padding: 1em;
+}
+
+.wonderland {
+  outline: 1px solid black;
+  background-color: #fff;
+  height: 150px;
+  h3 { 
+  		background-color: #0D1F49;
+		padding: 1%;
+		color: #fff;
+		font-weight: bold;
+   }
+}

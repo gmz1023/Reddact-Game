@@ -1,0 +1,50 @@
+.new-menu {
+  background-color: #fff !important;
+  float: right;
+  width: 100%; }
+  .new-menu nav {
+    width: 50%;
+    display: inline-block; }
+    .new-menu nav a {
+      color: #000;
+      text-decoration: none;
+      border: 1px solid black;
+      width: 20%;
+      padding: 2%;
+      text-align: center; }
+      .new-menu nav a:hover {
+        background-color: #011E32;
+        color: #fff; }
+
+nav.right {
+  float: right;
+  text-align: right; }
+nav.left {
+  float: left;
+  text-align: left; }
+  nav.left a {
+    float: left; }
+nav.right a {
+  float: right; }
+
+/* New semi-Universal HUD */
+.unihud {
+  float: right;
+  position: relative;
+  right: 10px;
+  top: 10px; }
+  .unihud .hud-item {
+    margin: 10px;
+    background-color: #fff;
+    width: 175px; }
+    .unihud .hud-item div {
+      display: inline-block; }
+
+.hud-item .hud-item-label {
+  padding: 3px;
+  background-color: #3E769F;
+  color: #fff;
+  width: 10%; }
+.hud-item .hud-item-value {
+  text-align: center !important;
+  width: 90%; }

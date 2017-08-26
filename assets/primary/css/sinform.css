@@ -1,0 +1,193 @@
+@keyframes fadein {
+  from {
+    transform: scale(0.7);
+    opacity: 0; }
+  to {
+    transform: scale(1);
+    opacity: 1; } }
+@keyframes fadeout {
+  from {
+    transform: scale(1);
+    opacity: 1; }
+  to {
+    transform: scale(0.7);
+    opacity: 0; } }
+#sinfor {
+  padding: 3px;
+  width: 50% !important;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  background-color: #333;
+  z-index: 9000;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  transition: opacity 1s; }
+  #sinfor.show {
+    opacity: 1;
+    animation: fadein .5s;
+    animation-fill-mode: both; }
+  #sinfor.hidden {
+    animation: fadeout .5s;
+    animation-fill-mode: both; }
+  #sinfor #exit {
+    display: inline-block;
+    background-color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    height: 25px; }
+    #sinfor #exit a {
+      color: #AD0508;
+      display: block;
+      width: 25px;
+      text-align: center;
+      background-color: #ccc;
+      border: 1px outset black;
+      box-sizing: border-box;
+      height: 25px;
+      line-height: 25px; }
+      #sinfor #exit a:hover {
+        border-style: inset; }
+  #sinfor .cma {
+    border: none !important; }
+  #sinfor button {
+    box-sizing: border-box;
+    width: 300px;
+    height: 20px;
+    border: 1px outset #333;
+    font-weight: bold;
+    color: #fff; }
+  #sinfor a.label {
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    border: 1px outset #333;
+    background-color: #1049FF;
+    text-decoration: none; }
+    #sinfor a.label:hover {
+      border-style: inset;
+      background-color: #0036E5; }
+  #sinfor button:hover {
+    border: 1px inset #333;
+    box-sizing: border-box; }
+
+#holder {
+  width: 100% !important; }
+
+/* CMA Button Style */
+button:disabled {
+  border: none !important;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333 !important;
+  text-decoration: line-through;
+  font-style: italic;
+  font-weight: 100; }
+  button:disabled:hover {
+    border: none !important;
+    font-weight: bold; }
+
+#mine {
+  background-color: #237806; }
+
+#capture {
+  background-color: #078F30; }
+
+#attack {
+  background-color: #960A0C; }
+
+/* Star InformatioN Pop Up Style */
+#starinfo {
+  background-color: #222;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; }
+  #starinfo h1 {
+    box-sizing: border-box;
+    font-size: 120%;
+    color: #fff;
+    background-color: #111;
+    padding: 2%;
+    border-bottom: 1px dashed #222; }
+  #starinfo .row {
+    display: table-row;
+    padding: 1vw; }
+  #starinfo .label {
+    background-color: #111;
+    padding: 1vw;
+    display: table-cell;
+    font-weight: bold;
+    color: #fff;
+    width: 50%; }
+  #starinfo .info {
+    display: table-cell;
+    text-align: center;
+    width: 150% !important;
+    background-color: #fff; }
+  #starinfo .button {
+    text-align: center;
+    display: block;
+    width: 100%; }
+
+.label, .info {
+  box-sizing: padding-box; }
+
+a.button {
+  background-color: #1E4309 !important; }
+  a.button:hover {
+    background-color: #fff !important;
+    color: #1e4309 !important; }
+
+/*
+	GOD POWERS
+*/
+.godPower {
+  width: 100%;
+  background-color: #222; }
+  .godPower h1 {
+    font-size: 85%; }
+  .godPower img {
+    border: 3px outset black;
+    margin: 4px; }
+    .godPower img:hover {
+      border: 3px inset black; }
+
+#SUHolder {
+  display: inline-block;
+  width: 100%; }
+
+.supgrade {
+  display: inline-block;
+  text-transform: capitalize;
+  float: right;
+  text-align: center;
+  width: 20% !important;
+  font-size: 75%;
+  padding-top: 3.7%;
+  padding-bottom: 3.7%;
+  color: #fff;
+  font-weight: bold; }
+  .supgrade:hover {
+    background-color: #f1f1f1; }
+  .supgrade:disabled {
+    color: #000 !important; }
+    .supgrade:disabled.failed {
+      background-color: #4D0000 !important;
+      color: #fff !important; }
+    .supgrade:disabled.success {
+      background-color: #2FB43E !important;
+      color: #fff !important; }
+
+.hospital {
+  background-color: #23AA93; }
+
+.warehouse, .banks {
+  background-color: #237806; }
+
+.refineries {
+  background-color: #AB0609; }
+
+.defense {
+  background-color: #D94B0A; }
+
+/*# sourceMappingURL=sinform.css.map */

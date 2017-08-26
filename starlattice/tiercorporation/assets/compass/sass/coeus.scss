@@ -1,0 +1,39 @@
+.coeus {
+	width: 100%;
+	float: right;
+	background-color: #f1f1f1;	
+	.head {
+		width: 30%;
+		float: right; 
+	.eyes,.mouth {display: block; }
+	.eyes {
+		width: 100%;
+		height: 300px;
+		background-color: #000;	
+	}
+	.mouth { 
+		padding: 5%;
+		border: 1px solid #333;
+		  } 
+	}
+	.deployment { float: left; 
+				width: 70%;
+		.upgrade {
+			padding: 5px;
+			.title {	
+				text-align: left;
+				font-weight: bold;
+			}
+			&:nth-child(odd) { 
+				background-color: #fff; 
+				border: { bottom: 1px solid black; }
+				} 	
+			.meta { .info { 
+				display: inline-block;
+				width: 70%;
+				 }
+				 .vote { display: inline-block; width:30%; } 
+				 } 
+		}
+	} 
+}

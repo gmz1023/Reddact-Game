@@ -1,0 +1,16 @@
+/* CSS Document */
+.newUser {
+  display: none;
+  background-color: #f1f1f1;
+  width: 33%;
+  float: left;
+  border: 1em solid black;
+  padding: 1em;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  z-index: 999; }
+  .newUser h1 {
+    font-size: 120%; }
+
+/*# sourceMappingURL=homeworld.css.map */

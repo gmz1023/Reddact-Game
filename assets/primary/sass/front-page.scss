@@ -1,0 +1,81 @@
+@import "login.scss";
+#splashHead {
+  width: 100%;
+  color: #870002;
+  text-align: center;
+  background-color: #000;
+  width: 100%;
+  border: 1px solid white;
+  form {
+    width: 100%;
+    background-color: #f2f2f2;
+    font-size: 12px;
+    text-align: left;
+    padding: 2px;
+    box-sizing: border-box;
+    a {}
+    input {
+      display: inline;
+      text-align: center;
+    }
+    .form_links {
+      font-size: 90%;
+      display: inline-block;
+      box-sizing: border-box;
+      width: 35%;
+      padding-left: 1%;
+    }
+  }
+}
+
+.form_links a {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px outset black;
+  height: 25px;
+  width: 125px;
+  text-align: center;
+  line-height: 25px;
+  box-sizing: border-box;
+}
+
+/* Front Page */
+
+article {
+  display: block;
+  background-color: #f1f1f1;
+  width: 100%;
+  float: left;
+  p {
+    width: 75%;
+    padding: 2%;
+    margin: 0 auto;
+    border-left: 1px dashed black;
+    box-sizing: border-box;
+  }
+  sub {
+    font-size: 9px;
+  }
+  h1 {
+    background-color: #111;
+    color: #f1f1f1;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  dl {
+    width: 75%;
+    margin: 0 auto;
+    padding: 2%;
+    positioN: relative;
+    left: 2%;
+    border-left: 1px dashed black;
+    dt {
+      margin: 0;
+      list-style: none;
+      padding: 0;
+    }
+  }
+}
